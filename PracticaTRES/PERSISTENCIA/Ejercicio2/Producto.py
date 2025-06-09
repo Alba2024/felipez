@@ -1,3 +1,7 @@
+#Sea el siguiente diagrama de clases:
+#a)Implementar el diagrama de clases.
+#b)Implementa guardarProducto(Producto p) para almacenar productos.
+#c)Implementa buscaProducto(int c) buscando el código, para mostrar los datos de un producto.
 import pickle
 
 

@@ -9,13 +9,13 @@ class Catalogo:
         return [item for item in self.items if nombre.lower() in str(item).lower()]
 
 
-# Libros
+
 catalogo_libros = Catalogo()
 catalogo_libros.agregar("Cien Años de Soledad")
 catalogo_libros.agregar("Don Quijote de la Mancha")
 print("Libros encontrados:", catalogo_libros.buscar("Don"))
 
-# Productos
+
 catalogo_productos = Catalogo()
 catalogo_productos.agregar({"codigo": 101, "nombre": "Mouse"})
 catalogo_productos.agregar({"codigo": 102, "nombre": "Teclado"})

@@ -42,3 +42,6 @@ def buscar_celular_cliente(id_cliente):
         print("Cliente no encontrado.")
     except FileNotFoundError:
         print("Archivo no encontrado.")
+guardar_cliente(Cliente(1, "Laura", "78912345"))
+buscar_cliente(1)
+buscar_celular_cliente(1)

@@ -1,3 +1,7 @@
+#1.Sea el siguiente diagrama de clases:
+#a)Implementa el método guardarEmpleado(Empleado e) para almacenar empleados.
+#b)Implementa buscaEmpleado(String n) a traves del nombre, para ver los datos del Empleado n.
+#c)Implementa mayorSalario(float sueldo), que devuelva al primer empleado con sueldo mayor al ingresado.
 import pickle
 
 class Empleado:

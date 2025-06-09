@@ -55,3 +55,9 @@ def buscar_farmacias_con_medicamento(nombre_medicamento):
         pass
     except FileNotFoundError:
         print("Archivo no encontrado.")
+
+meds = [Medicamento("Golpex", "tos"), Medicamento("Aspirina", "dolor")]
+f = Farmacia(3, "Av. 16 de Julio", meds)
+guardar_farmacia(f)
+medicamentos_para_tos(3)
+buscar_farmacias_con_medicamento("Golpex")

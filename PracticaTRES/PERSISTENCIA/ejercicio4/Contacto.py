@@ -42,3 +42,6 @@ def buscar_email(email):
         print("Email no encontrado.")
     except FileNotFoundError:
         print("Archivo no encontrado.")
+guardar_contacto(Contacto("Marta", "marta@gmail.com", "77700000"))
+buscar_contacto("Marta")
+buscar_email("marta@gmail.com")

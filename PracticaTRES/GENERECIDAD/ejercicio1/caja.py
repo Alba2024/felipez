@@ -8,8 +8,6 @@ class Caja:
     def obtener(self):
         return self.objeto
 
-
-# Prueba con dos tipos diferentes
 caja1 = Caja()
 caja1.guardar("comida")
 
